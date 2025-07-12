@@ -1,4 +1,4 @@
-# Arthifact Website
+# Astro Arthifact Website
 
 *(A fork and modification from Astro Cactus by Chris Williams)*
 
