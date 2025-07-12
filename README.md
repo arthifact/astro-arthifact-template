@@ -20,7 +20,7 @@ Welcome to the template for [Astro Arthifact](https://arthifact.com/) —  my si
 ## To Deploy to GitHub Pages:
 
 This template includes a GitHub Actions workflow to deploy your site to GitHub Pages.
-To publish your site at https://your-username.github.io:
+To publish your site at `https://your-username.github.io`:
 
 1. Rename your repository to your-username.github.io
 
