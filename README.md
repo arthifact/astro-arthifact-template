@@ -2,7 +2,7 @@
 
 *(A fork and modification from Astro Cactus by Chris Williams)*
 
-Welcome to the codebase for [Arthifact](https://arthifact.com/) — a site for interactive systems, visual constructs, and neural logs. 
+Welcome to the codebase for [Astro Arthifact](https://arthifact.com/Astro_Arthifact/) — a site for interactive systems, visual constructs, and neural logs. 
 
 ## Features
 
