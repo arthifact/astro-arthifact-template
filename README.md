@@ -2,7 +2,7 @@
 
 *(A fork and modification from Astro Cactus by Chris Williams)*
 
-Welcome to the template for [Astro Arthifact](https://arthifact.com/) — a site for interactive systems, visual constructs, and neural logs. 
+Welcome to the template for [Astro Arthifact](https://arthifact.com/) —  my site for interactive systems, visual constructs, and neural logs. 
 
 ## Features
 
@@ -17,7 +17,27 @@ Welcome to the template for [Astro Arthifact](https://arthifact.com/) — a site
 - **RSS Feeds**: Automatic RSS for posts and notes.
 - **Open Graph Images**: Auto-generated or custom OG images for sharing.
 
-## Getting Started
+## To Deploy to GitHub Pages:
+
+This template includes a GitHub Actions workflow to deploy your site to GitHub Pages.
+To publish your site at https://your-username.github.io:
+
+1. Rename your repository to your-username.github.io
+
+2. Make sure GitHub Pages is enabled in your repo settings and **Source** set to --> GitHub Actions
+
+3. Set the correct site URL in `astro.config.ts`:
+
+```js
+ site: siteConfig.url,
+	image: {
+		domains: ["your-username.github.io"],
+ },
+```
+
+The included .github/workflows/deploy.yml will automatically build and deploy your site to the gh-pages branch when you push to main.
+
+## Local Getting Started
 
 1. **Install dependencies:**
    ```sh
